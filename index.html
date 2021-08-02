@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Introdução ao JavaScript">
+
+    <!-- TÍTULO DA PÁGINA -->
+    <title>Introdução ao JavaScript</title>
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="load()">
+    <button type="button" onclick="clicado(this)">Click aqui</button>
+    <p id="agradecimento" onclick="redirecionar()"></p>
+
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui!</p>
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui!</p>
+
+    <select name="" id="selecionar" onchange="funcaoChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+</body>
+
+</html>
